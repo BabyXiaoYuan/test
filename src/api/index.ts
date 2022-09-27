@@ -16,15 +16,14 @@ const fkdel = (data:any) => {
 const fkshow = (data:any) => {
   return get('/api/visituser/show', data)
 }
- 
+
 // 访客添加
 const fkadd = (data:any) => {
   return post('/visituser/add', data)
 }
 
 // 访客修改
-const
- fkedit = (data:any) => {
+const fkedit = (data:any) => {
   return post('/api/visituser/edit', data)
 }
 
@@ -32,6 +31,7 @@ const
 const cancelist = (data:any) => {
   return get('/api/reviewer/list', data)
 }
+
 // 核销人单删 批删
 const canceldel = (data:any) => {
   return get('/api/reviewer/del', data)
@@ -92,7 +92,7 @@ const checkshow = (data:any) => {
   return get('/api/auditlog/show', data)
 }
 
-// 核销日志列表     
+// 核销日志列表
 const chargelog = (data:any) => {
   return get('/api/reviewer/log', data)
 }
